@@ -13,7 +13,7 @@ const Footer = () => {
                 <li><a href="">About</a></li>
             </section>
             <section className="footer-social">
-                <a href="https://github.com/JeyllonSandoval/Components" ><button>GitHub</button></a>
+                <a target="_blank" href="https://github.com/JeyllonSandoval/Components" ><button>GitHub</button></a>
             </section>
 
         </footer>

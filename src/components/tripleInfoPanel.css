@@ -1,0 +1,51 @@
+.triple-info-panel {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1200px;
+}
+
+.triple-info-panel_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    padding-bottom: 32px;
+    gap: 4px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border-radius: 32px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.triple-info-panel_item a button {
+    font-weight: bold;
+    color: #818181;
+    padding: 12px;
+    font-size: 16px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 32px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.triple-info-panel_item a button:hover {
+    padding: 12px;
+    border-radius: 32px;
+    background-color: #0ec0c1;
+    color: #ffffff;
+}
+
+.triple-info-panel_item:hover {
+    color: #fff;
+    background-color: #0A576C;
+}
+
+.triple-info-panel_item:hover a button {
+    color: #fff;
+}

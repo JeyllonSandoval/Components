@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 1400px;
 }
 
 .info-panel {
@@ -67,20 +68,19 @@
 
 .info-panel button {
     padding: 10px 20px;
-    background-color: #0ec0c1;
+    background-color: #005757;
     text-decoration: none;
-    color: #000000;
+    color: #fff;
     font-weight: bold;
     font-size: 20px;
     margin: 0;
     border: 2px solid transparent;
     cursor: pointer;
     border-radius: 12px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Solo el borde de color cambia */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .info-panel button:hover {
-    background-color: #005757;
+    background-color: #0ec0c1;
     color: #ffffff;
-    border-color: #0ec0c1;    
 }
