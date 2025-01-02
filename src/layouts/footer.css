@@ -3,12 +3,11 @@
     justify-content: space-around;
     align-items: center;
     background-color: #0A576C;
-    margin-top: 40px;
+    margin-top: 80px;
     height: 100px;
     width: 100%;
     bottom: 0;
     left: 0;
-    z-index: 100;
     gap: 10px;
     color: white;
 }

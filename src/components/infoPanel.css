@@ -9,7 +9,7 @@
 }
 
 .info-panel {
-    margin: 40px 40px;
+    margin-top: 140px;
     display: grid;
     grid-template-columns: 3fr 2fr;
     justify-content: center;
@@ -39,7 +39,6 @@
 
 .info-panel img {
     width: 700px;
-
 }
 
 .info-panel article {
