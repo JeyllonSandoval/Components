@@ -8,8 +8,8 @@ const Footer = () => {
                 <h2>Components</h2>
             </section>
             <section className="footer-menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Components</a></li>
+                <li><a href="../pages/home.tsx">Home</a></li>
+                <li><a href="../pages/components.tsx">Components</a></li>
                 <li><a href="">About</a></li>
             </section>
             <section className="footer-social">

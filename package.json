@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev /src/pages/index.tsx",
+    "start": "astro dev /src/index",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -21,6 +21,7 @@
     "astro-icon": "^1.1.5",
     "nodejs": "^0.0.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
   }
 }

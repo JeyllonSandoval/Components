@@ -1,19 +1,28 @@
 ---
-import Home from './home.tsx'
-import './global.css'
+import React from "react";
+import NavbarHorizontal from "../layouts/navbarHorizontal";
+import InfoPanel from "../components/infoPanel.tsx";
+import Footer from "../layouts/footer.tsx";
+import TripleInfoPanel from "../components/tripleInfoPanel.tsx";
+import "./home.css";
+import './src/global.css'
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
     <body>
-        <Home />    
+        <section>
+            <NavbarHorizontal />
+            <main class="home">
+                <InfoPanel />
+                <TripleInfoPanel />
+            </main>
+            <Footer />
+        </section>
     </body>
 </html>

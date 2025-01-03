@@ -1,5 +1,6 @@
 .navbar {
     position: fixed;
+    top: 0; /* Asegura que se mantenga arriba */
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -8,6 +9,7 @@
     color: white;
     gap: 250px;
     padding: 20px 0;
+    z-index: 1000;
 }
 
 .navbar h1 {
