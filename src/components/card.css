@@ -16,7 +16,10 @@
 }
 
 .card div {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card:hover {
@@ -25,7 +28,7 @@
     color: #ffffff;
 }
 
-.card:hover p {
+.card:hover div p, .card:hover div h2 {
     color: #ffffff;
 }
 
@@ -38,13 +41,17 @@
 }
 
 .card div h2 {
-    margin: 4px;
+    display: flex;
+    align-items: center;
+    margin: 4px 0 0 0;
     font-weight: 800;
     color: #333;
     height: 50px;
 }
 
 .card div p {
+    display: flex;
+    align-items: center;
     font-size: 16px;
     color: #666;
     width: 100%;
@@ -70,7 +77,7 @@
     transition: background 0.3s ease-in-out;
 }
 
-.card:hover div a button {
+.card:hover a button {
     background: linear-gradient(160deg, #04bb8d, #0798c1);
 }
 

@@ -1,7 +1,7 @@
 @import './card.css';
 
 .cardDisplay-container {
-    background-color: rgba(0, 0, 0, 0.05);
+    background: linear-gradient(160deg, #dcdcdc, #e1e1e1);
     border-radius: 0 64px 0 64px;
     padding: 32px 32px 32px 32px;
     display: flex;
@@ -9,13 +9,13 @@
     justify-content: flex-start;
     width: 1400px;
     margin: 32px 0 0 0;
-    transition: border-radius 0.5s ease, background-color 0.5s ease;
+    transition: border-radius 0.5s ease;
 }
 
-.cardDisplay-title {
-    font-size: 24px;
-    font-weight: 700;
-    transition: font-weight 0.5s ease, font-size 0.5s ease;
+.cardDisplay-title h2 {
+    margin: 0 0 24px 0;
+    font-size: 64px;
+    font-weight: 800;
 }
 
 .cardDisplay-cards {
@@ -28,7 +28,7 @@
 }
 
 .cardDisplay-container:hover {
-    background-color: #a5c7c7;
+    background: linear-gradient(160deg, #04bb8d, #0798c1);
     border-radius: 64px 0 64px 0;
 }
 
