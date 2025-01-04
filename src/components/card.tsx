@@ -12,10 +12,10 @@ const Card: React.FC<CardProps> = ({ img, title, description, link }) => {
     return (
         <div className="card">
             <div>
-                <h3>{title}</h3>
+                <h2>{title}</h2>
                 <p>{description}</p>
-                <a href={link}><button>Watch</button></a>
             </div>
+            <a href={link}><button>Watch</button></a>
         </div>
     );
 };
