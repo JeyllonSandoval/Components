@@ -4,6 +4,7 @@
     justify-content: center;
     width: 1200px;
     gap: 32px;
+    color: #bdbdbd;
 }
 
 .triple-info-panel {
@@ -50,7 +51,7 @@
 
 .triple-info-panel_item:hover {
     color: #fff;
-    background-color: #0A576C;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .triple-info-panel_item:hover a button {

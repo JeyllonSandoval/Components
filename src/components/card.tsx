@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ img, title, description, link }) => {
                 <h2>{title}</h2>
                 <p>{description}</p>
             </div>
-            <a href={link}><button>Watch</button></a>
+            <a href={link}><button>Show</button></a>
         </div>
     );
 };

@@ -4,5 +4,5 @@ body {
     font-family: 'Funnel Sans', serif;
     margin: 0 0 0 0;
     padding: 120px 0 0 0;
-    background-color: #f8f8ec;
+    background: linear-gradient(45deg, #001a2f, #000000, #001e36);
 }

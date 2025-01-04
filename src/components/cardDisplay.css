@@ -1,7 +1,7 @@
 @import './card.css';
 
 .cardDisplay-container {
-    background: linear-gradient(160deg, #dcdcdc, #e1e1e1);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 0 64px 0 64px;
     padding: 32px 32px 32px 32px;
     display: flex;
@@ -16,6 +16,11 @@
     margin: 0 0 24px 0;
     font-size: 64px;
     font-weight: 800;
+    color: #707070;
+}
+
+.cardDisplay-container:hover .cardDisplay-title h2 {
+    color: #e0e0e0;
 }
 
 .cardDisplay-cards {
@@ -28,10 +33,31 @@
 }
 
 .cardDisplay-container:hover {
-    background: linear-gradient(160deg, #04bb8d, #0798c1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 64px 0 64px 0;
+    color: #ffff;
 }
 
 .cardDisplay-container:hover .card {
     border-radius: 64px 0 64px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cardDisplay-container:hover .card:hover {
+    transform: translateY(-5px);
+    background-color: #0A576C;
+    color: #ffffff;
+}
+
+.cardDisplay-container:hover .card div h2 {
+    color: #ffffff;
+}
+
+.cardDisplay-container:hover .card div p {
+    color: #ffffff;
+}
+
+.cardDisplay-container:hover .card a button{
+    filter: none;
+    
 }
