@@ -1,61 +1,194 @@
 import React from "react";
 import "./tripleInfoPanel.css";
 
-const TripleInfoPanel = () => {
+interface itemProps {
+    title: string;
+    type: string;
+}
+
+interface TripleInfoPanelProps {
+    title: string;
+    items: itemProps[];
+}
+
+const TripleInfoPanel: React.FC<TripleInfoPanelProps> = ({title, items = []}) => {
     return (
         <section className="triple-info-panel">
             <article className="triple-info-panel_item">
-                <h3>Nivel Fácil</h3>
-                <a href=""><button>Botones </button></a>
-                <a href=""><button>Footer </button></a>
-                <a href=""><button>Navbar </button></a>
-                <a href=""><button>Card</button></a>
-                <a href=""><button>Progress Bar </button></a>
-                <a href=""><button>Back-to-Top Button</button></a>
-                <a href=""><button>Alerts </button></a>
-                <a href=""><button>Tooltip </button></a>
-                <a href=""><button>Dropdown </button></a>
-            </article>
-            <article className="triple-info-panel_item">
-                <h3>Nivel Intermedio</h3>
-                <a href=""><button>Accordion </button></a>
-                <a href=""><button>Tabs </button></a>
-                <a href=""><button>Pagination </button></a>
-                <a href=""><button>Hamburger Menu</button></a>
-                <a href=""><button>Search Bar</button></a>
-                <a href=""><button>Sticky Header</button></a>
-                <a href=""><button>Image Lightbox</button></a>
-                <a href=""><button>Loader</button></a>
-                <a href=""><button>Toast Notifications</button></a>
-                <a href=""><button>Sidebar</button></a>
-                <a href=""><button>Breadcrumbs</button></a>
-            </article>
-            <article className="triple-info-panel_item">
-                <h3>Nivel Avanzado</h3>
-                <a href=""><button>Flip Card</button></a>
-                <a href=""><button>Countdown Timer</button></a>
-                <a href=""><button>Formularios interactivos</button></a>
-                <a href=""><button>Mega Menu</button></a>
-                <a href=""><button>Gallery </button></a>
-                <a href=""><button>Timeline</button></a>
-                <a href=""><button>Testimonials</button></a>
-                <a href=""><button>Step Progress</button></a>
-                <a href=""><button>Video Player</button></a>
-                <a href=""><button>Floating Action Button</button></a>
-            </article>
-            <article className="triple-info-panel_item">
-                <h3>Nivel Experto </h3>
-                <a href=""><button>Carousel </button></a>
-                <a href=""><button>Calendar </button></a>
-                <a href=""><button>Kanban Board</button></a>
-                <a href=""><button>Map with Markers</button></a>
-                <a href=""><button>Chat Widget</button></a>
-                <a href=""><button>Table</button></a>
-                <a href=""><button>Notification Bell</button></a>
-                <a href=""><button>Login/Register Form</button></a>
+                <h3>{title}</h3>
+                {items.map((item, index) => (
+                    <a href="" key={index}><button>{item.title}</button></a>
+                ))}
             </article>
         </section>
     );
 };
 
-export default TripleInfoPanel;
+const ListTripleInfoPanel = () => {
+    const allItems: itemProps[] = [
+        {
+            type: "Nivel Fácil",
+            title: "Botones",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Footer",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Navbar",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Card",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Progress Bar",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Back-to-Top Button",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Alerts",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Tooltip",
+        },
+        {
+            type: "Nivel Fácil",
+            title: "Dropdown",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Accordion",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Tabs",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Pagination",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Hamburger Menu",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Search Bar",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Sticky Header",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Image Lightbox",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Loader",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Toast Notifications",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Sidebar",
+        },
+        {
+            type: "Nivel Intermedio",
+            title: "Breadcrumbs",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Flip Card",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Countdown Timer",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Formularios interactivos",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Mega Menu",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Gallery",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Timeline",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Testimonials",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Step Progress",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Video Player",
+        },
+        {
+            type: "Nivel Avanzado",
+            title: "Floating Action Button",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Carousel",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Calendar",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Kanban Board",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Map with Markers",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Chat Widget",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Table",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Notification Bell",
+        },
+        {
+            type: "Nivel Experto",
+            title: "Login/Register Form",
+        },        
+    ];
+
+    const types = ["Nivel Fácil", "Nivel Intermedio", "Nivel Avanzado", "Nivel Experto"];
+    return (
+        <div className="triple-info-panel-container">
+            {types.map((type, index) => {
+                const filteredItems = allItems.filter(item => item.type === type);
+                return <TripleInfoPanel key={index} title={type} items={filteredItems} />;
+            })}
+        </div>
+    );
+};
+
+export default ListTripleInfoPanel;
