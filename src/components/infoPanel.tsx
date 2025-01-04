@@ -18,7 +18,7 @@ const InfoPanel = () => {
                             user interfaces, eliminating the need to rely exclusively on 
                             specific libraries or frameworks.</p>
                     </article>
-                    <a href="ruta-a-tu-pagina.html">
+                    <a href="/components">
                         <button>See all components</button>
                     </a>
                 </div>

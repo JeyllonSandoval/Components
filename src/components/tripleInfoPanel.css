@@ -31,13 +31,13 @@
     cursor: pointer;
     background-color: transparent;
     border-radius: 32px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .triple-info-panel_item a button:hover {
     padding: 12px;
     border-radius: 32px;
-    background-color: #0ec0c1;
+    background: linear-gradient(160deg, #04bb8d, #0798c1);
     color: #ffffff;
 }
 
