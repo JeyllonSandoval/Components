@@ -5,7 +5,7 @@ import './components.css';
 import "./home.css";
 import NavbarHorizontal from '../layouts/navbarHorizontal';
 import Footer from '../layouts/footer';
-import MegaMenu from '../components/megaMenu';
+import CardDisplay from '../components/cardDisplay';
 ---
 
 <!DOCTYPE html>
@@ -17,9 +17,9 @@ import MegaMenu from '../components/megaMenu';
 </head>
 <body>
     <NavbarHorizontal />
-    <main class="home">
-        <MegaMenu />
-    </main>
+        <main class="home", id="home">
+            <CardDisplay />
+        </main>
     <Footer />
 </body>
 </html>
