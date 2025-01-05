@@ -10,7 +10,7 @@ const Footer = () => {
             <section className="footer-menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/components">Components</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="/about">About</a></li>
             </section>
             <section className="footer-social">
                 <a target="_blank" href="https://github.com/JeyllonSandoval/Components" ><button>GitHub</button></a>
