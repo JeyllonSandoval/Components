@@ -41,7 +41,7 @@ const CardDisplay: React.FC<CardDisplayProps> = ({ title, cards }) => {
 const ListCardDisplay = () => {
     const allCards: CardProps[] = dataComponents;
 
-    const types = ["Nivel Fácil", "Nivel Intermedio", "Nivel Avanzado", "Nivel Experto"];
+    const types = ["Easy Level", "Intermediate Level", "Advanced Level", "Expert Level"];
 
     return (
         <div>

@@ -1,269 +1,268 @@
-
-        [
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Botones",
-                "description": "Botones estilizados que responden a interacciones del usuario, como clics o cambios de estado (hover, disabled).",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Footer",
-                "description": "Sección final de la página que generalmente incluye información de contacto, enlaces o derechos de autor.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Navbar",
-                "description": "Barra superior para navegación principal con enlaces a las secciones de la página.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Card",
-                "description": "Tarjetas que muestran información resumida, como perfiles, productos o artículos.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Progress Bar",
-                "description": "Barra visual que muestra el progreso de una tarea o carga.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Back-to-Top Button",
-                "description": "Botón que permite al usuario regresar rápidamente al inicio de la página.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Alerts",
-                "description": "Mensajes emergentes que capturan la atención del usuario para mostrar información importante.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Tooltip",
-                "description": "Mensajes flotantes que aparecen al pasar el cursor sobre un elemento.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Fácil",
-                "title": "Dropdown",
-                "description": "Menú que muestra opciones adicionales al hacer clic o pasar el cursor.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Accordion",
-                "description": "Secciones colapsables que permiten organizar contenido en paneles desplegables.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Tabs",
-                "description": "Pestañas que permiten alternar entre diferentes vistas o contenidos en la misma área.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Pagination",
-                "description": "Componente que organiza contenido en múltiples páginas navegables.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Hamburger Menu",
-                "description": "Menú compacto que se expande al hacer clic, común en sitios móviles.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Search Bar",
-                "description": "Componente para ingresar consultas de búsqueda, con opciones de autocompletar.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Sticky Header",
-                "description": "Encabezado que permanece visible mientras se desplaza por la página.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Image Lightbox",
-                "description": "Componente para ampliar imágenes en una ventana flotante.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Loader",
-                "description": "Indicador animado que muestra que algo está cargando.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Toast Notifications",
-                "description": "Notificaciones emergentes que desaparecen automáticamente después de un tiempo.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Sidebar",
-                "description": "Barra lateral que puede contener enlaces de navegación o contenido adicional.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Intermedio",
-                "title": "Breadcrumbs",
-                "description": "Rastro de enlaces que muestra la ubicación actual del usuario en la jerarquía de la página.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Flip Card",
-                "description": "Tarjetas animadas que giran para mostrar contenido en el reverso.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Countdown Timer",
-                "description": "Temporizador que cuenta hacia atrás hasta un evento específico.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Formularios interactivos",
-                "description": "Formularios estilizados con validación en tiempo real y mensajes de error personalizados.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Mega Menu",
-                "description": "Menú desplegable grande con múltiples categorías y enlaces.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Gallery",
-                "description": "Cuadrícula interactiva para mostrar imágenes, con vistas ampliadas o efectos especiales.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Timeline",
-                "description": "Diseño para mostrar eventos en orden cronológico.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Testimonials",
-                "description": "Componente para mostrar comentarios o citas de clientes.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Step Progress",
-                "description": "Componente que indica el avance a través de múltiples etapas.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Video Player",
-                "description": "Reproductor de video personalizado con controles.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Avanzado",
-                "title": "Floating Action Button",
-                "description": "Botón flotante que abre opciones o acciones rápidas.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Carousel",
-                "description": "Componente interactivo para mostrar imágenes o contenido deslizante.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Calendar",
-                "description": "Componente para mostrar fechas y eventos.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Kanban Board",
-                "description": "Tablero interactivo para gestionar tareas arrastrando y soltando.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Map with Markers",
-                "description": "Mapa interactivo con marcadores para ubicaciones específicas.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Chat Widget",
-                "description": "Ventana interactiva para mensajes o soporte en tiempo real.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Table",
-                "description": "Tablas de datos con funciones como ordenación, filtrado o búsqueda.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Notification Bell",
-                "description": "Icono interactivo para mostrar notificaciones recientes.",
-                "link": ""
-            },
-            {
-                "img": "",
-                "type": "Nivel Experto",
-                "title": "Login/Register Form",
-                "description": "Formularios estilizados para iniciar sesión o crear cuentas.",
-                "link": ""
-            }
-        ]
+[
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Buttons",
+        "description": "Stylized buttons that respond to user interactions, such as clicks or state changes (hover, disabled).",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Footer",
+        "description": "Bottom section of the page, typically including contact information, links, or copyright notices.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Navbar",
+        "description": "Top bar for primary navigation with links to the page's sections.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Card",
+        "description": "Cards that display summarized information, such as profiles, products, or articles.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Progress Bar",
+        "description": "Visual bar showing the progress of a task or loading process.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Back-to-Top Button",
+        "description": "Button that allows users to quickly return to the top of the page.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Alerts",
+        "description": "Pop-up messages that grab the user's attention to show important information.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Tooltip",
+        "description": "Floating messages that appear when hovering over an element.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Easy Level",
+        "title": "Dropdown",
+        "description": "Menu that shows additional options when clicked or hovered over.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Accordion",
+        "description": "Collapsible sections to organize content into expandable panels.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Tabs",
+        "description": "Tabs that allow switching between different views or content in the same area.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Pagination",
+        "description": "Component that organizes content into multiple navigable pages.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Hamburger Menu",
+        "description": "Compact menu that expands when clicked, commonly seen on mobile sites.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Search Bar",
+        "description": "Component for entering search queries, with autocomplete options.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Sticky Header",
+        "description": "Header that remains visible while scrolling through the page.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Image Lightbox",
+        "description": "Component to enlarge images in a floating window.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Loader",
+        "description": "Animated indicator showing that something is loading.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Toast Notifications",
+        "description": "Pop-up notifications that disappear automatically after a set time.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Sidebar",
+        "description": "Sidebar that can contain navigation links or additional content.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Intermediate Level",
+        "title": "Breadcrumbs",
+        "description": "Trail of links showing the user's current location in the page hierarchy.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Flip Card",
+        "description": "Animated cards that flip to show content on the back.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Countdown Timer",
+        "description": "Timer that counts down to a specific event.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Interactive Forms",
+        "description": "Stylized forms with real-time validation and custom error messages.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Mega Menu",
+        "description": "Large dropdown menu with multiple categories and links.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Gallery",
+        "description": "Interactive grid for displaying images with enlarged views or special effects.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Timeline",
+        "description": "Design to display events in chronological order.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Testimonials",
+        "description": "Component to display client feedback or quotes.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Step Progress",
+        "description": "Component indicating progress through multiple steps.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Video Player",
+        "description": "Custom video player with controls.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Advanced Level",
+        "title": "Floating Action Button",
+        "description": "Floating button that opens quick options or actions.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Carousel",
+        "description": "Interactive component for displaying sliding images or content.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Calendar",
+        "description": "Component to display dates and events.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Kanban Board",
+        "description": "Interactive board for managing tasks with drag-and-drop functionality.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Map with Markers",
+        "description": "Interactive map with markers for specific locations.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Chat Widget",
+        "description": "Interactive window for messaging or real-time support.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Table",
+        "description": "Data tables with features like sorting, filtering, or searching.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Notification Bell",
+        "description": "Interactive icon to display recent notifications.",
+        "link": ""
+    },
+    {
+        "img": "",
+        "type": "Expert Level",
+        "title": "Login/Register Form",
+        "description": "Stylized forms for logging in or creating accounts.",
+        "link": ""
+    }
+]
