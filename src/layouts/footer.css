@@ -67,10 +67,15 @@
 .footer-social a {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
 }
 
 .footer-social a button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     font-size: 18px;
     color: white;
     padding: 12px 24px;
@@ -78,7 +83,7 @@
     border-radius: 8px;
     background: linear-gradient(145deg, #8a2be2, #0031c5);
     position: relative;
-    overflow: hidden; /* Para mantener el efecto dentro del botón */
+    overflow: hidden; 
     cursor: pointer;
     z-index: 1;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -90,17 +95,17 @@
     top: -50%;
     left: -50%;
     width: 300%;
-    height: 350%;
+    height: 450%;
     background: linear-gradient(145deg, #8a2be2, #002080, #00215f, #8a2be2);
     background-size: 300%;
-    z-index: -1; /* Detrás del texto */
-    animation: gradient-flow 4s infinite linear; /* Animación fluida */
-    transform: rotate(45deg); /* Rota el degradado */
+    z-index: -1;
+    animation: gradient-flow 5s infinite linear; 
+    transform: rotate(45deg); 
 }
 
 
 .footer-social a button:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+    transform: scale(1.05);
     color: #f8f8ec;
 }
 
