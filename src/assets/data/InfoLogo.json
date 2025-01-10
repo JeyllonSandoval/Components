@@ -1,67 +1,67 @@
 [
     {
         "title" : "Astro",
-        "img" : "/public/imgs/astroLogo.webp",
+        "img" : "https://i.postimg.cc/zfVXzr0X/astro-Logo.webp",
         "alt" : "Astro Logo"
     },
     {
         "title" : "React",
-        "img" : "/public/imgs/reactLogo.png",
+        "img" : "https://i.postimg.cc/mkwG3X85/react-Logo.png",
         "alt" : "React Logo"
     },
     {
         "title" : "TypeScript",
-        "img" : "/public/imgs/typescriptLogo.png",
+        "img" : "https://i.postimg.cc/25smCB12/typescript-Logo.png",
         "alt" : "TypeScript Logo"
     },
     {
         "title" : "JavaScript",
-        "img" : "/public/imgs/javaScriptLogo.png",
+        "img" : "https://i.postimg.cc/2S5CGYpF/javascript-Logo.png",
         "alt" : "JavaScript Logo"
     },
     {
         "title" : "HTML",
-        "img" : "/public/imgs/htmlLogo.png",
+        "img" : "https://i.postimg.cc/J4MryJPF/htmlLogo.png",
         "alt" : "HTML Logo"
     },
     {
         "title" : "CSS",
-        "img" : "/public/imgs/cssLogo.png",
+        "img" : "https://i.postimg.cc/d0pQDxxR/cssLogo.png",
         "alt" : "CSS Logo"
     },
     {
         "title" : "Node",
-        "img" : "/public/imgs/nodeLogo.png",
+        "img" : "https://i.postimg.cc/bvDpXRwZ/nodeLogo.png",
         "alt" : "Node Logo"
     },
     {
         "title" : "Git",
-        "img" : "/public/imgs/gitLogo.png",
+        "img" : "https://i.postimg.cc/wMc9fTTF/gitLogo.png",
         "alt" : "Git Logo"
     },
     {
         "title" : "GitHub",
-        "img" : "/public/imgs/githubLogo.png",
+        "img" : "https://i.postimg.cc/T2r2YQqm/github-Logo.png",
         "alt" : "GitHub Logo"
     },
     {
         "title" : "VS Code",
-        "img" : "/public/imgs/vscodeLogo.png",
+        "img" : "https://i.postimg.cc/9My20FTV/vscode-Logo.png",
         "alt" : "VS Code Logo"
     },
     {
         "title" : "Discord",
-        "img" : "/public/imgs/discordLogo.png",
+        "img" : "https://i.postimg.cc/NMXsXk33/discord-Logo.png",
         "alt" : "Discord Logo"
     },
     {
         "title" : "LineIcons",
-        "img" : "/public/imgs/lineiconsLogo.jpg",
+        "img" : "https://i.postimg.cc/8P41L5Yz/lineicons-Logo.jpg",
         "alt" : "LineIcons Logo"
     },
     {
         "title" : "Vercel",
-        "img" : "/public/imgs/vercelLogo.png",
+        "img" : "https://i.postimg.cc/vTMsVFLn/vercel-Logo.png",
         "alt" : "Vercel Logo"
     }
 ]

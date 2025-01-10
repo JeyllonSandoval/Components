@@ -4,7 +4,7 @@ import './profile.css';
 const Profile = () => {
     return (
     <div className="profile">
-        <img src="/public/imgs/avatarProfile.jpg" alt="avatar" />
+        <img src="https://i.postimg.cc/jwZ0s2Db/avatar-Profile.jpg" alt="avatar" />
         <div>
             <h2>Jeyllon Sandoval</h2>
             <h3>Systems Engineer</h3>
