@@ -68,6 +68,10 @@
 }
 
 .info-panel button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     padding: 10px 20px;
     background: linear-gradient(160deg, #039470, #047696);
     text-decoration: none;
@@ -85,3 +89,4 @@
     background: linear-gradient(160deg, #04bb8d, #0798c1);
     color: #ffffff;
 }
+

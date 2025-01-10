@@ -19,7 +19,7 @@ const InfoPanel = () => {
                             specific libraries or frameworks.</p>
                     </article>
                     <a href="/components">
-                        <button>See all components</button>
+                        <button>See all components<i className='lni lni-arrow-right'></i></button>
                     </a>
                 </div>
             </section>
