@@ -14,9 +14,12 @@ const Profile = () => {
                 My academic background and personal interests have allowed me to develop a strong foundation 
                 in problem-solving, programming, and analytical thinking.</p>
             <div className="profile-socials">
-                <button><i className="lni lni-instagram"></i></button>
-                <button><i className="lni lni-linkedin"></i></button>
-                <button><i className="lni lni-github"></i></button>
+                <a href="https://www.instagram.com/jey_slon" target='_blank'><button><i className="lni lni-instagram"></i></button></a>
+                <a href="https://www.linkedin.com/in/jeyllon-slon-sandoval-rosario-bb2292320/" target='_blank'><button><i className="lni lni-linkedin"></i></button></a>
+                <a href="https://github.com/JeyllonSandoval" target='_blank'><button><i className="lni lni-github"></i></button></a>
+                
+                
+                
             </div>
         </div>
     </div>
