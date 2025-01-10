@@ -1,0 +1,67 @@
+[
+    {
+        "title" : "Astro",
+        "img" : "/public/imgs/astroLogo.webp",
+        "alt" : "Astro Logo"
+    },
+    {
+        "title" : "React",
+        "img" : "/public/imgs/reactLogo.png",
+        "alt" : "React Logo"
+    },
+    {
+        "title" : "TypeScript",
+        "img" : "/public/imgs/typescriptLogo.png",
+        "alt" : "TypeScript Logo"
+    },
+    {
+        "title" : "JavaScript",
+        "img" : "/public/imgs/javaScriptLogo.png",
+        "alt" : "JavaScript Logo"
+    },
+    {
+        "title" : "HTML",
+        "img" : "/public/imgs/htmlLogo.png",
+        "alt" : "HTML Logo"
+    },
+    {
+        "title" : "CSS",
+        "img" : "/public/imgs/cssLogo.png",
+        "alt" : "CSS Logo"
+    },
+    {
+        "title" : "Node",
+        "img" : "/public/imgs/nodeLogo.png",
+        "alt" : "Node Logo"
+    },
+    {
+        "title" : "Git",
+        "img" : "/public/imgs/gitLogo.png",
+        "alt" : "Git Logo"
+    },
+    {
+        "title" : "GitHub",
+        "img" : "/public/imgs/githubLogo.png",
+        "alt" : "GitHub Logo"
+    },
+    {
+        "title" : "VS Code",
+        "img" : "/public/imgs/vscodeLogo.png",
+        "alt" : "VS Code Logo"
+    },
+    {
+        "title" : "Discord",
+        "img" : "/public/imgs/discordLogo.png",
+        "alt" : "Discord Logo"
+    },
+    {
+        "title" : "LineIcons",
+        "img" : "/public/imgs/lineiconsLogo.jpg",
+        "alt" : "LineIcons Logo"
+    },
+    {
+        "title" : "Vercel",
+        "img" : "/public/imgs/vercelLogo.png",
+        "alt" : "Vercel Logo"
+    }
+]
