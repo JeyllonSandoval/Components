@@ -16,6 +16,7 @@
     gap: 250px;
     padding: 20px 0;
     z-index: 10;
+    backdrop-filter: blur(30px);
 }
 .navbar::before {
     content: '';
