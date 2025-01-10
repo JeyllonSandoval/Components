@@ -1,6 +1,6 @@
 import React from "react";
 import "./cardHover.css";
-import dataInfoLogo from '../assets/data/infoLogo.json';
+import dataInfoLogo from '../assets/data/InfoLogo.json';
 
 interface CardHoverProps {
     title: string;
